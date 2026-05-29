@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local compound databases and user uploads
+*.xlsx
+*.xls
+*.csv
+
+# Streamlit/local state
+.streamlit/secrets.toml
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
